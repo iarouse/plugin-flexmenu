@@ -1,0 +1,143 @@
+!!!
+//if lt IE 7
+  <html class="lt-ie9 lt-ie8 lt-ie7">
+//if IE 7
+  <html class="lt-ie9 lt-ie8">
+//if lt IE 8
+  <html class="lt-ie9">
+
+//[if gt IE 8]><!
+html
+  //<![endif]
+  head
+    meta(charset='utf-8')
+    title jQuery Plugin
+    meta(name="viewport", content="width=device-width, initial-scale=1.0, maximum-scale=1.0")
+    //if lt IE 8
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+
+    link(rel='stylesheet', href='js/vendor/bootstrap/css/bootstrap.css')
+    link(rel='stylesheet', href='css/jquery.flexmenu.css')
+    link(rel='stylesheet', href='css/main.css')
+
+    //- put scripts in header to prevent flash
+    script(src='js/vendor/jquery-1.10.2.js')
+    script(src='js/jquery.flexmenu.js')
+
+  body
+    block header
+      .header.clearfix
+        h1 Responsive Multi-Level Menu
+          span Off-Canvas / Toggle pattern responsive navigation / menu.
+        
+        block demo-nav
+          .demos
+              a.active(href="index.html") Demo 1: Off-Canvas
+              a(href="index2.html") Demo 2: Toggle Pattern
+    block nav
+      .fm-container
+        .fm-button
+          span.fm-bar
+          span.fm-bar
+          span.fm-bar
+        .menu
+          ul
+            //- first level
+            li
+              a(href="#") Item 1
+              //- second level
+              ul
+                li
+                  a(href="#") Sub-Item 1
+                li
+                  a(href="#") Sub-Item 2
+                  //- third level
+                  ul
+                    li
+                      a(href="#") Sub-Sub-Item 1
+                    li
+                      a(href="#") Sub-Sub-Item 2
+                    li
+                      a(href="#") Sub-Sub-Item 3
+                li
+                  a(href="#") Sub-Item 3
+                  ul
+                    li
+                      a(href="#") Sub-Sub-Item 1
+                    li
+                      a(href="#") Sub-Sub-Item 2
+                    li
+                      a(href="#") Sub-Sub-Item 3          
+                li
+                  a(href="#") Sub-Item 4
+                li
+                  a(href="#") Sub-Item 5
+            li
+              a(href="#") Item 2
+            li
+              a(href="#") Item 3
+              ul
+                li
+                  a(href="#") Sub-Item 1
+                li
+                  a(href="#") Sub-Item 2
+                  ul
+                    li
+                      a(href="#") Sub-Sub-Item 1
+                    li
+                      a(href="#") Sub-Sub-Item 2
+                    li
+                      a(href="#") Sub-Sub-Item 3
+                li
+                  a(href="#") Sub-Item 3
+                  ul
+                    li
+                      a(href="#") Sub-Sub-Item 1
+                    li
+                      a(href="#") Sub-Sub-Item 2
+                    li
+                      a(href="#") Sub-Sub-Item 3          
+                li
+                  a(href="#") Sub-Item 4
+                li
+                  a(href="#") Sub-Item 5
+            li
+              a(href="#") Item 4
+            li
+              a(href="#") Item 5
+
+    block content
+      //- main
+      .main
+        h3.text-center Features
+
+        li Two kinds of responsive patterns: 
+          strong  Off-Canvas pattern
+          |  and 
+          strong Toggle pattern
+          | , click the button above to see the demos.
+        li 
+          strong Build with Sass.
+          |  Easy to modify, just change the value of variables like Less CSS.
+        li
+          strong Build with jQuery.
+          |  Easy to use, with several options avaiable to change. Such as responsive breakpoint, animation speed.
+        li You can place the menu button wherever you want.
+        li Desktop style and Mobile style will 
+          strong not affect each other.
+          |  So you can change them seperately, say you change the horizontal menu style to vertical style.
+        li Well documented, 
+          strong  with examples.
+        li Work well with 
+          strong  Bootstrap 3.
+        li Cross Browser.
+
+
+    block footer
+
+
+  block script
+    script
+      (function($){
+        $('.menu').flexMenu();
+      })(jQuery);

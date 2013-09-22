@@ -1,0 +1,170 @@
+extends layout
+
+block header
+	header.jumbotron.subhead#overview
+		.container
+			h1 Documentation
+			p.lead The jQuery plugin instruction.
+
+
+block docs-sidebar
+	li
+		a(href="#thanks")
+			i.icon-chevron-right
+			|  Thanks
+	li
+		a(href="#intro")
+			i.icon-chevron-right
+			|  Introduction
+	li
+		a(href="#file-structure")
+			i.icon-chevron-right
+			|  File structure
+	li
+		a(href="#quick")
+			i.icon-chevron-right
+			|  Basic Usage (Quick Start)
+	li
+		a(href="#usage")
+			i.icon-chevron-right
+			|  Usage (More Options)
+	li
+		a(href="#credits")
+			i.icon-chevron-right
+			|  Credits
+
+block content
+	section#thanks
+		.page-header
+			h1 Thank you
+		p.lead Thank you for purchasing. If you have any questions that are beyond the scope of this documentation, please feel free to contact me. Thanks so much! :)
+
+	section#intro
+		.page-header
+			h1 Introduction
+		p.lead "FlexMenu" is a fully responsive jQuery menu/navigation plugin. It was built with Sass CSS which makes it easy to modify.
+
+	section#file-structure
+		.page-header
+			h1 File Structure
+		p.lead Within the download you'll find the following file structure and contents
+		p Once downloaded, unzip the compressed folder  and you'll see something like this:
+
+		pre.prettyprint
+			| flexmenu/
+			| ├── Docs/
+			| ├── Example - Basic/
+			| ├── Example - Advanced/
+			| └── Flexmenu/
+		ul
+			li
+				strong "Docs"
+				|  folder is where the help documentation is.
+			li
+				strong "Example - Baic"
+				|  contains a simple example project.
+			li
+				strong "Example - Advanced"
+				|  contains a much complex example project, which also includes Sass CSS and CoffeeScript files.
+			li
+				strong "Flexmenu"
+				|  contains the minified version of flexmenu plugin.
+
+
+	section#quick
+		.page-header
+			h1 Basic Usage
+		p.lead You can refer to 
+			strong Example - Basic
+			|  file for code example. All you need to do is write some HTML, and one line jQuery code.
+		p.lead Include the CSS and JS file
+		p You need jQuery, since it's build on jQuery.
+		pre.prettyprint.linenums
+			| &lt;!-- include the CSS and JS files --&gt;
+			| &lt;link rel="stylesheet" href="flexmenu/css/jquery.flexmenu.css"&gt;
+			| &lt;script src="jquery-1.10.2.js"&gt;&lt;/script&gt;
+			| &lt;script src="flexmenu/js/jquery.flexmenu.js"&gt;&lt;/script&gt;
+
+		P.lead The Menu:
+		pre.prettyprint.linenums
+			| &lt;!-- Menu container --&gt;
+			| &lt;div class="fm-container"&gt;
+			| 	&lt;!-- Button --&gt;
+			| 	&lt;div class="fm-button"&gt;
+			| 		&lt;span class="fm-bar"&gt;&lt;/span&gt;
+			| 		&lt;span class="fm-bar"&gt;&lt;/span&gt;
+			| 		&lt;span class="fm-bar"&gt;&lt;/span&gt;
+			| 	&lt;/div&gt;
+			| 	&lt;!-- end button --&gt;
+
+			| 	&lt;!-- Menu --&gt;
+			| 	&lt;div class="menu"&gt;
+			| 		&lt;ul&gt;
+			| 			&lt;li&gt;&lt;a href="#"&gt;Item 1&lt;/a&gt;
+			| 				&lt;ul&gt;
+			| 					&lt;li&gt;&lt;a href="#"&gt;Sub Item 1&lt;/a&gt;&lt;/li&gt;
+			| 					&lt;li&gt;&lt;a href="#"&gt;Sub Item 2&lt;/a&gt;&lt;/li&gt;
+			| 				&lt;/ul&gt;
+			| 			&lt;/li&gt;
+			| 			&lt;li&gt;&lt;a href="#"&gt;Item 2&lt;/a&gt;&lt;/li&gt;
+			| 			&lt;li&gt;&lt;a href="#"&gt;Item 3&lt;/a&gt;&lt;/li&gt;
+			| 			&lt;li&gt;&lt;a href="#"&gt;Item 4&lt;/a&gt;&lt;/li&gt;
+			| 			&lt;li&gt;&lt;a href="#"&gt;Item 5&lt;/a&gt;&lt;/li&gt;
+			| 		&lt;/ul&gt;		
+			| 	&lt;/div&gt;
+			| 	&lt;!-- end Menu --&gt;
+
+			| &lt;/div&gt;
+			| &lt;!-- end Menu container --&gt;
+
+		P.lead Init, with one line jQuery code:
+		pre.prettyprint.linenums
+			| &lt;!-- init flexmenu --&gt;
+			| &lt;script&gt;
+			| $('.menu').flexMenu();
+			| &lt;/script&gt;
+
+		p.lead Again. You can refer to 
+			strong Example - Basic
+			|  file for code example. 
+
+	section#usage
+		.page-header
+			h1 More options Usage
+		p.lead There are some options avaiable.
+		li breakpoint: 767
+			| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			| # Integer: The responsive breakpoint(px) of flexMenu
+		li responsivePattern: 'toggle'
+			| &nbsp;
+			| # String: 'toggle' and 'off-canvas'
+		li animationSpeed: 250
+			| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			| # Integer: The speed of animations, in milliseconds.
+		br
+		p So you can write you code this way:
+		pre.prettyprint.linenums
+			&lt;script&gt;
+			| $('.menu').flexMenu({
+			| 	breakpoint: 800,
+			|	responsivePattern: 'off-canvas',
+			|	animationSpeed: 300
+			| });
+			&lt;/script&gt;		
+		p.lead Examples
+		p You can also refer to the Examples - Advanced to see how things work.
+
+
+
+
+	section#credits
+		.page-header
+			h1 Credits
+		ul
+			li 
+				a(href="http://jquery.com/") jquery.js
+				|  The most popluar JavaScript framework
+			li
+				a(href="http://www.google.com/fonts/") Google Web Fonts
+				|  Hundreds of free, open-source fonts optimized for the web.
+
