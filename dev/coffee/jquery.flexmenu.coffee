@@ -88,13 +88,15 @@
 
         # click for small screen
         if windowWidth <= settings.breakpoint
-          # reset()
+          if( $('.fm-lg').length )
+            reset()
+
+            if $nav.hasClass('fm-toggle')
+              $nav.slideUp(200)
+
           $nav.removeClass('fm-lg').addClass('fm-sm')
 
           $button.show()
-
-          # if $nav.hasClass('fm-toggle')
-            # $nav.slideUp(200)
 
           # unbind events to prevent binding same event more the once Bug
           $li.off('mouseenter mouseleave') 

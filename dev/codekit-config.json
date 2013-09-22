@@ -2,17 +2,27 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8300",
   "files" : {
-    "\/coffee\/jquery.flexmenu.coffee" : {
+    "\/jade\/index2.jade" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/coffee\/jquery.flexmenu.coffee",
-      "checkOutputStyle" : 0,
-      "minifyOutput" : 1,
-      "outputAbbreviatedPath" : "\/js\/jquery.flexmenu.js",
+      "inputAbbreviatedPath" : "\/jade\/index2.jade",
       "outputStyle" : 0,
-      "fileType" : 32
+      "compileDebug" : 0,
+      "outputAbbreviatedPath" : "\/index2.html",
+      "fileType" : 512
+    },
+    "\/js\/vendor\/bootstrap\/js\/bootstrap.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/vendor\/bootstrap\/js\/bootstrap.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/vendor\/bootstrap\/js\/bootstrap.min-min.js",
+      "fileType" : 64
     },
     "\/js\/vendor\/font-awesome\/css\/font-awesome.css" : {
       "ignoreWasSetByUser" : 0,
@@ -32,17 +42,6 @@
       "outputAbbreviatedPath" : "\/No Output Path",
       "fileType" : 2048
     },
-    "\/js\/vendor\/bootstrap\/js\/bootstrap.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/vendor\/bootstrap\/js\/bootstrap.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/vendor\/bootstrap\/js\/bootstrap.min-min.js",
-      "fileType" : 64
-    },
     "\/index2.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -52,16 +51,14 @@
       "outputAbbreviatedPath" : "\/No Output Path",
       "fileType" : 2048
     },
-    "\/js\/vendor\/bootstrap\/js\/bootstrap.js" : {
+    "\/css\/jquery.flexmenu.css" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/vendor\/bootstrap\/js\/bootstrap.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/vendor\/bootstrap\/js\/bootstrap-min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/css\/jquery.flexmenu.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/js\/vendor\/bootstrap\/css\/bootstrap.min.css" : {
       "ignoreWasSetByUser" : 0,
@@ -72,15 +69,15 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/js\/jquery.flexmenu.js" : {
+    "\/js\/vendor\/bootstrap\/js\/bootstrap.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/jquery.flexmenu.js",
+      "inputAbbreviatedPath" : "\/js\/vendor\/bootstrap\/js\/bootstrap.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/jquery.flexmenu-min.js",
+      "outputAbbreviatedPath" : "\/js\/vendor\/bootstrap\/js\/bootstrap-min.js",
       "fileType" : 64
     },
     "\/config.rb" : {
@@ -123,17 +120,25 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/sass\/main.sass" : {
+    "\/js\/jquery.flexmenu.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/jquery.flexmenu.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/jquery.flexmenu-min.js",
+      "fileType" : 64
+    },
+    "\/js\/vendor\/bootstrap\/css\/bootstrap.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/main.sass",
-      "outputStyle" : 3,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/main.css",
-      "fileType" : 2,
-      "debugStyle" : 1
+      "inputAbbreviatedPath" : "\/js\/vendor\/bootstrap\/css\/bootstrap.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/sass\/jquery.flexmenu.sass" : {
       "ignoreWasSetByUser" : 0,
@@ -147,23 +152,17 @@
       "fileType" : 2,
       "debugStyle" : 1
     },
-    "\/js\/vendor\/bootstrap\/css\/bootstrap.css" : {
+    "\/sass\/main.sass" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/vendor\/bootstrap\/css\/bootstrap.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/css\/jquery.flexmenu.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/jquery.flexmenu.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "inputAbbreviatedPath" : "\/sass\/main.sass",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/main.css",
+      "fileType" : 2,
+      "debugStyle" : 1
     },
     "\/jade\/index.jade" : {
       "ignoreWasSetByUser" : 0,
@@ -187,16 +186,17 @@
       "initialSize" : 2839,
       "fileType" : 8192
     },
-    "\/jade\/index2.jade" : {
+    "\/coffee\/jquery.flexmenu.coffee" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/jade\/index2.jade",
+      "inputAbbreviatedPath" : "\/coffee\/jquery.flexmenu.coffee",
+      "checkOutputStyle" : 0,
+      "minifyOutput" : 1,
+      "outputAbbreviatedPath" : "\/js\/jquery.flexmenu.js",
       "outputStyle" : 0,
-      "compileDebug" : 0,
-      "outputAbbreviatedPath" : "\/index2.html",
-      "fileType" : 512
+      "fileType" : 32
     }
   },
   "manualImportLinks" : [
