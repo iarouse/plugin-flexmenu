@@ -93,8 +93,8 @@
 
           $button.show()
 
-          if $nav.hasClass('fm-toggle')
-            $nav.slideUp(200)
+          # if $nav.hasClass('fm-toggle')
+            # $nav.slideUp(200)
 
           # unbind events to prevent binding same event more the once Bug
           $li.off('mouseenter mouseleave') 
