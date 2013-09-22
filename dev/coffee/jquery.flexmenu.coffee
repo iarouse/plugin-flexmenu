@@ -86,9 +86,9 @@
       resize = ->
         windowWidth = $window.width()
 
-        # click + touch for small screen
+        # click for small screen
         if windowWidth <= settings.breakpoint
-          reset()
+          # reset()
           $nav.removeClass('fm-lg').addClass('fm-sm')
 
           $button.show()
