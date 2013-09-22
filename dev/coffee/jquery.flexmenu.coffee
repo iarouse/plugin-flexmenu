@@ -47,22 +47,30 @@
         $nav = $('.flexmenu.fm-sm')
 
         if $nav.hasClass('fm-toggle')
-          $nav.slideToggle()
+          $nav.slideToggle(settings.animationSpeed)
         else if $nav.hasClass('fm-offcanvas')
           if nav_open
             $inner.animate({
               'left': 0
+            }, {
+              duration: settings.animationSpeed
             })
             $nav.animate({
               'left': '-70%'
+            }, {
+              duration: settings.animationSpeed
             })
             nav_open = false
           else # open
             $inner.animate({
               'left': '70%'
+            }, {
+              duration: settings.animationSpeed
             })
             $nav.animate({
               'left': 0
+            }, {
+              duration: settings.animationSpeed
             })
             nav_open = true         
       )
@@ -76,9 +84,13 @@
             $nav = $('.flexmenu.fm-sm')
             $inner.animate({
               'left': 0
+            }, {
+              duration: settings.animationSpeed
             })
             $nav.animate({
               'left': '-70%'
+            }, {
+              duration: settings.animationSpeed
             })
             nav_open = false
 
@@ -92,7 +104,7 @@
             reset()
 
             if $nav.hasClass('fm-toggle')
-              $nav.slideUp(200)
+              $nav.hide()
 
           $nav.removeClass('fm-lg').addClass('fm-sm')
 
@@ -106,7 +118,7 @@
             e.stopPropagation()
             $this = $(@)
             $sub = $this.parent('.with-ul').children('ul')
-            $sub.stop(true, true).slideToggle() # stop animate queue and animate
+            $sub.stop(true, true).slideToggle(duration: settings.animationSpeed) # stop animate queue and animate
           )
         # hover for large screen
         else
