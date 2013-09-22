@@ -1,0 +1,14 @@
+extends layout.jade
+
+block demo-nav
+  .demos
+    a(href="index.html") Demo 1: Off-Canvas
+    a.active(href="index2.html") Demo 2: Toggle Pattern
+
+block script
+  script
+    (function($){
+      $('.menu').flexMenu({
+        responsivePattern: 'toggle'
+      });
+    })(jQuery);

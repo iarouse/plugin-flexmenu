@@ -1,0 +1,203 @@
+<!DOCTYPE html><!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"></html><![endif]--><!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8"></html><![endif]--><!--[if IE 8]>
+<html class="no-js lt-ie9"></html><![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8"><!--[if IE]>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!-- stylesheets-->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="assets/css/docs.css" rel="stylesheet">
+    <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+  </head>
+  <body data-spy="scroll" data-target=".bs-docs-sidebar">
+    <!-- Navbar-->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" data-toggle="collapse" data-target=".nav-collapse" class="btn btn-navbar"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="./index.html" class="brand">Document</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li><a href="./index.html">Docs</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Header-->
+    <header id="overview" class="jumbotron subhead">
+      <div class="container">
+        <h1>Documentation</h1>
+        <p class="lead">The jQuery plugin instruction.</p>
+      </div>
+    </header>
+    <!-- Docs container-->
+    <div class="container">
+      <div class="row">
+        <!-- Docs nav-->
+        <div class="span3 bs-docs-sidebar">
+          <ul class="nav nav-list bs-docs-sidenav">
+            <li><a href="#thanks"><i class="icon-chevron-right"></i> Thanks</a></li>
+            <li><a href="#intro"><i class="icon-chevron-right"></i> Introduction</a></li>
+            <li><a href="#file-structure"><i class="icon-chevron-right"></i> File structure</a></li>
+            <li><a href="#quick"><i class="icon-chevron-right"></i> Basic Usage (Quick Start)</a></li>
+            <li><a href="#usage"><i class="icon-chevron-right"></i> Usage (More Options)</a></li>
+            <li><a href="#credits"><i class="icon-chevron-right"></i> Credits</a></li>
+          </ul>
+        </div>
+        <!-- Docs content						-->
+        <div class="span9">
+          <section id="thanks">
+            <div class="page-header">
+              <h1>Thank you</h1>
+            </div>
+            <p class="lead">Thank you for purchasing. If you have any questions that are beyond the scope of this documentation, please feel free to contact me. Thanks so much! :)</p>
+          </section>
+          <section id="intro">
+            <div class="page-header">
+              <h1>Introduction</h1>
+            </div>
+            <p class="lead">"FlexMenu" is a fully responsive jQuery menu/navigation plugin. It was built with Sass CSS which makes it easy to modify.</p>
+          </section>
+          <section id="file-structure">
+            <div class="page-header">
+              <h1>File Structure</h1>
+            </div>
+            <p class="lead">Within the download you'll find the following file structure and contents</p>
+            <p>Once downloaded, unzip the compressed folder  and you'll see something like this:</p>
+            <pre class="prettyprint">flexmenu/
+├── Docs/
+├── Example - Basic/
+├── Example - Advanced/
+└── Flexmenu/</pre>
+            <ul>
+              <li><strong>"Docs"</strong> folder is where the help documentation is.</li>
+              <li><strong>"Example - Baic"</strong> contains a simple example project.</li>
+              <li><strong>"Example - Advanced"</strong> contains a much complex example project, which also includes Sass CSS and CoffeeScript files.</li>
+              <li><strong>"Flexmenu"</strong> contains the minified version of flexmenu plugin.</li>
+            </ul>
+          </section>
+          <section id="quick">
+            <div class="page-header">
+              <h1>Basic Usage</h1>
+            </div>
+            <p class="lead">You can refer to <strong>Example - Basic</strong> file for code example. All you need to do is write some HTML, and one line jQuery code.</p>
+            <p class="lead">Include the CSS and JS file</p>
+            <p>You need jQuery, since it's build on jQuery.</p>
+            <pre class="prettyprint linenums">&lt;!-- include the CSS and JS files --&gt;
+&lt;link rel="stylesheet" href="flexmenu/css/jquery.flexmenu.css"&gt;
+&lt;script src="jquery-1.10.2.js"&gt;&lt;/script&gt;
+&lt;script src="flexmenu/js/jquery.flexmenu.js"&gt;&lt;/script&gt;</pre>
+            <P class="lead">The Menu:</P>
+            <pre class="prettyprint linenums">&lt;!-- Menu container --&gt;
+&lt;div class="fm-container"&gt;
+	&lt;!-- Button --&gt;
+	&lt;div class="fm-button"&gt;
+		&lt;span class="fm-bar"&gt;&lt;/span&gt;
+		&lt;span class="fm-bar"&gt;&lt;/span&gt;
+		&lt;span class="fm-bar"&gt;&lt;/span&gt;
+	&lt;/div&gt;
+	&lt;!-- end button --&gt;
+	&lt;!-- Menu --&gt;
+	&lt;div class="menu"&gt;
+		&lt;ul&gt;
+			&lt;li&gt;&lt;a href="#"&gt;Item 1&lt;/a&gt;
+				&lt;ul&gt;
+					&lt;li&gt;&lt;a href="#"&gt;Sub Item 1&lt;/a&gt;&lt;/li&gt;
+					&lt;li&gt;&lt;a href="#"&gt;Sub Item 2&lt;/a&gt;&lt;/li&gt;
+				&lt;/ul&gt;
+			&lt;/li&gt;
+			&lt;li&gt;&lt;a href="#"&gt;Item 2&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href="#"&gt;Item 3&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href="#"&gt;Item 4&lt;/a&gt;&lt;/li&gt;
+			&lt;li&gt;&lt;a href="#"&gt;Item 5&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul&gt;		
+	&lt;/div&gt;
+	&lt;!-- end Menu --&gt;
+&lt;/div&gt;
+&lt;!-- end Menu container --&gt;</pre>
+            <P class="lead">Init, with one line jQuery code:</P>
+            <pre class="prettyprint linenums">&lt;!-- init flexmenu --&gt;
+&lt;script&gt;
+$('.menu').flexMenu();
+&lt;/script&gt;</pre>
+            <p class="lead">Again. You can refer to <strong>Example - Basic</strong> file for code example. </p>
+          </section>
+          <section id="usage">
+            <div class="page-header">
+              <h1>More options Usage</h1>
+            </div>
+            <p class="lead">There are some options avaiable.</p>
+            <li>
+              breakpoint: 767
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              # Integer: The responsive breakpoint(px) of flexMenu
+            </li>
+            <li>
+              responsivePattern: 'toggle'
+              &nbsp;
+              # String: 'toggle' and 'off-canvas'
+            </li>
+            <li>
+              animationSpeed: 250
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              # Integer: The speed of animations, in milliseconds.
+            </li><br>
+            <p>So you can write you code this way:</p>
+            <pre class="prettyprint linenums">&lt;script&gt;
+$('.menu').flexMenu({
+	breakpoint: 800,
+	responsivePattern: 'off-canvas',
+	animationSpeed: 300
+});
+&lt;/script&gt;		</pre>
+            <p class="lead">Examples</p>
+            <p>You can also refer to the Examples - Advanced to see how things work.</p>
+          </section>
+          <section id="credits">
+            <div class="page-header">
+              <h1>Credits</h1>
+            </div>
+            <ul>
+              <li> <a href="http://jquery.com/">jquery.js</a> The most popluar JavaScript framework</li>
+              <li><a href="http://www.google.com/fonts/">Google Web Fonts</a> Hundreds of free, open-source fonts optimized for the web.</li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </div>
+    <!-- Footer-->
+    <footer class="footer">
+      <div class="container">
+        <p>Copyright 2013</p>
+      </div>
+    </footer>
+    <!-- Scripts-->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap-transition.js"></script>
+    <script src="assets/js/bootstrap-alert.js"></script>
+    <script src="assets/js/bootstrap-modal.js"></script>
+    <script src="assets/js/bootstrap-dropdown.js"></script>
+    <script src="assets/js/bootstrap-scrollspy.js"></script>
+    <script src="assets/js/bootstrap-tab.js"></script>
+    <script src="assets/js/bootstrap-tooltip.js"></script>
+    <script src="assets/js/bootstrap-popover.js"></script>
+    <script src="assets/js/bootstrap-button.js"></script>
+    <script src="assets/js/bootstrap-collapse.js"></script>
+    <script src="assets/js/bootstrap-carousel.js"></script>
+    <script src="assets/js/bootstrap-typeahead.js"></script>
+    <script src="assets/js/bootstrap-affix.js"></script>
+    <script src="assets/js/holder/holder.js"></script>
+    <script src="assets/js/google-code-prettify/prettify.js"></script>
+    <script src="assets/js/jquery.smooth-scroll.js"></script>
+    <script src="assets/js/application.js"></script>
+  </body>
+</html>

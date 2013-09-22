@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<title>Basic Example</title>
+
+	<!-- include the CSS and JS files -->
+	<link rel="stylesheet" href="flexmenu/css/jquery.flexmenu.css">
+	<script src="jquery-1.10.2.js"></script>
+	<script src="flexmenu/js/jquery.flexmenu.js"></script>
+	<!-- end include -->
+
+	<!-- basic style, not needed, just for demo -->
+	<style>
+		body {
+			margin: 0;
+			padding: 200px 0 0;
+		}
+	</style>
+</head>
+<body>
+	<!-- Menu container -->
+	<div class="fm-container">
+
+		<!-- Button -->
+		<div class="fm-button">
+			<span class="fm-bar"></span>
+			<span class="fm-bar"></span>
+			<span class="fm-bar"></span>
+		</div>
+		<!-- end button -->
+
+		<!-- Menu -->
+		<div class="menu">
+			<ul>
+				<li><a href="#">Item 1</a>
+					<ul>
+						<li><a href="#">Sub Item 1</a></li>
+						<li><a href="#">Sub Item 2</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Item 2</a></li>
+				<li><a href="#">Item 3</a></li>
+				<li><a href="#">Item 4</a></li>
+				<li><a href="#">Item 5</a></li>
+			</ul>		
+		</div>
+		<!-- end Menu -->
+
+	</div>
+	<!-- end Menu container -->
+
+
+	<!-- init flexmenu -->
+	<script>
+	$('.menu').flexMenu();
+	</script>
+</body>
+</html>
