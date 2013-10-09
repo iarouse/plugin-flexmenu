@@ -2,43 +2,18 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8300",
   "files" : {
-    "\/jade\/index2.jade" : {
+    "\/styles\/jquery.flexmenu.less" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/jade\/index2.jade",
-      "outputStyle" : 0,
-      "compileDebug" : 0,
-      "outputAbbreviatedPath" : "\/index2.html",
-      "fileType" : 512
-    },
-    "\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/index.html",
-      "outputAbbreviatedPath" : "\/No Output Path",
-      "fileType" : 2048
-    },
-    "\/css\/jquery.flexmenu.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/jquery.flexmenu.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/js\/vendor\/font-awesome\/css\/font-awesome.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/vendor\/font-awesome\/css\/font-awesome.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "inputAbbreviatedPath" : "\/styles\/jquery.flexmenu.less",
+      "outputStyle" : 1,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/jquery.flexmenu.css",
+      "strictImports" : 0,
+      "fileType" : 1,
+      "debugStyle" : 0
     },
     "\/index2.html" : {
       "ignoreWasSetByUser" : 0,
@@ -48,46 +23,6 @@
       "inputAbbreviatedPath" : "\/index2.html",
       "outputAbbreviatedPath" : "\/No Output Path",
       "fileType" : 2048
-    },
-    "\/js\/vendor\/bootstrap\/js\/bootstrap.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/vendor\/bootstrap\/js\/bootstrap.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/vendor\/bootstrap\/js\/bootstrap-min.js",
-      "fileType" : 64
-    },
-    "\/js\/vendor\/bootstrap\/css\/bootstrap.min.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/vendor\/bootstrap\/css\/bootstrap.min.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/js\/jquery.flexmenu.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/jquery.flexmenu.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/jquery.flexmenu-min.js",
-      "fileType" : 64
-    },
-    "\/config.rb" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/config.rb",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 32768
     },
     "\/js\/vendor\/jquery-1.10.2.js" : {
       "ignoreWasSetByUser" : 0,
@@ -109,70 +44,26 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/jade\/layout.jade" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/jade\/layout.jade",
-      "outputStyle" : 0,
-      "compileDebug" : 0,
-      "outputAbbreviatedPath" : "\/layout.html",
-      "fileType" : 512
-    },
-    "\/js\/vendor\/bootstrap\/js\/bootstrap.min.js" : {
+    "\/js\/vendor\/bootstrap\/js\/bootstrap.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/vendor\/bootstrap\/js\/bootstrap.min.js",
+      "inputAbbreviatedPath" : "\/js\/vendor\/bootstrap\/js\/bootstrap.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/vendor\/bootstrap\/js\/bootstrap.min-min.js",
+      "outputAbbreviatedPath" : "\/js\/vendor\/bootstrap\/js\/bootstrap-min.js",
       "fileType" : 64
     },
-    "\/js\/vendor\/bootstrap\/css\/bootstrap.css" : {
+    "\/jade\/index2.jade" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/vendor\/bootstrap\/css\/bootstrap.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/sass\/jquery.flexmenu.sass" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/jquery.flexmenu.sass",
-      "outputStyle" : 3,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/jquery.flexmenu.css",
-      "fileType" : 2,
-      "debugStyle" : 1
-    },
-    "\/sass\/main.sass" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/main.sass",
-      "outputStyle" : 3,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/main.css",
-      "fileType" : 2,
-      "debugStyle" : 1
-    },
-    "\/jade\/index.jade" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/jade\/index.jade",
+      "inputAbbreviatedPath" : "\/jade\/index2.jade",
       "outputStyle" : 0,
       "compileDebug" : 0,
-      "outputAbbreviatedPath" : "\/index.html",
+      "outputAbbreviatedPath" : "\/index2.html",
       "fileType" : 512
     },
     "\/images\/bg-nav_gradient.png" : {
@@ -185,6 +76,128 @@
       "outputAbbreviatedPath" : "\/images\/bg-nav_gradient.png",
       "initialSize" : 2839,
       "fileType" : 8192
+    },
+    "\/jade\/layout.jade" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/jade\/layout.jade",
+      "outputStyle" : 0,
+      "compileDebug" : 0,
+      "outputAbbreviatedPath" : "\/layout.html",
+      "fileType" : 512
+    },
+    "\/js\/jquery.flexmenu.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/jquery.flexmenu.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/jquery.flexmenu-min.js",
+      "fileType" : 64
+    },
+    "\/js\/vendor\/bootstrap\/js\/bootstrap.min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/vendor\/bootstrap\/js\/bootstrap.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/vendor\/bootstrap\/js\/bootstrap.min-min.js",
+      "fileType" : 64
+    },
+    "\/config.rb" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/config.rb",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 32768
+    },
+    "\/styles\/main.sass" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/styles\/main.sass",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/main.css",
+      "fileType" : 2,
+      "debugStyle" : 1
+    },
+    "\/js\/vendor\/font-awesome\/css\/font-awesome.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/vendor\/font-awesome\/css\/font-awesome.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/js\/vendor\/bootstrap\/css\/bootstrap.min.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/vendor\/bootstrap\/css\/bootstrap.min.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/index.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/index.html",
+      "outputAbbreviatedPath" : "\/No Output Path",
+      "fileType" : 2048
+    },
+    "\/css\/jquery.flexmenu.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/jquery.flexmenu.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/jade\/index.jade" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/jade\/index.jade",
+      "outputStyle" : 0,
+      "compileDebug" : 0,
+      "outputAbbreviatedPath" : "\/index.html",
+      "fileType" : 512
+    },
+    "\/styles\/jquery.flexmenu.sass" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/styles\/jquery.flexmenu.sass",
+      "outputStyle" : 3,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/jquery.flexmenu.css",
+      "fileType" : 2,
+      "debugStyle" : 1
+    },
+    "\/js\/vendor\/bootstrap\/css\/bootstrap.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/vendor\/bootstrap\/css\/bootstrap.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/coffee\/jquery.flexmenu.coffee" : {
       "ignoreWasSetByUser" : 0,
@@ -205,7 +218,7 @@
   "projectSettings" : {
     "hamlNoEscapeInAttributes" : 0,
     "kitAutoOutputPathStyle" : 0,
-    "lessOutputStyle" : 0,
+    "lessOutputStyle" : 1,
     "hamlAutoOutputPathReplace2" : "",
     "draggedImportConcatenationStyle" : 1,
     "jadeAutoOutputPathStyle" : 2,
@@ -369,14 +382,14 @@
     "jadeCompileDebug" : 0,
     "slimRailsCompatible" : 0,
     "kitAutoOutputPathReplace2" : "",
-    "lessDebugStyle" : 1,
+    "lessDebugStyle" : 0,
     "javascriptAutoOutputPathRelativePath" : "",
     "slimAutoOutputPathStyle" : 0
   },
   "projectAttributes" : {
     "bourbonEnabled" : 0,
     "displayValue" : "dev",
-    "displayValueWasSetByUser" : 0,
+    "displayValueWasSetByUser" : 1,
     "compassEnabled" : 1
   }
 }
